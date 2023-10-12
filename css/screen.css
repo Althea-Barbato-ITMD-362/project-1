@@ -208,13 +208,11 @@ label {
 /* ===== STATE STYLES ======= */
 
   
-/* Reset some default styles for consistency */
 body, h1, h2, p, ul, li {
   margin: 0;
   padding: 0;
 }
 
-/* Basic styles for the entire page */
 body {
   font-family: 'Brush Script MT', cursive;
   margin: 0;
@@ -223,7 +221,6 @@ body {
   align-items: center
 }
 
-/* Header styles */
 h1 {
   font-size: 2.5em;
   color: #ff8c33;
@@ -231,7 +228,6 @@ h1 {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* Main content area styles */
 #content {
   padding: 20px;
   background-color: #f7e7ce;
@@ -242,11 +238,20 @@ h1 {
   align-items: center
 }
 
-/* Recipe section styles */
 h2 {
   font-size: 2em;
   color: #ff8c33;
   margin-top: 20px;
+}
+
+.recipe-directions {
+  display: flex;
+  align-items: center;
+}
+
+.recipe-directions img {
+  max-width: 50%; 
+  margin-right: 20px; 
 }
 
 p {
@@ -255,7 +260,6 @@ p {
   padding: 10px 0;
 }
 
-/* Form styles */
 form {
   background-color: #f7e7ce;
   font-family: 'Arial', sans-serif;
@@ -307,7 +311,6 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* Responsive design - adjust as needed for mobile devices */
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 2em;
