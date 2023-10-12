@@ -3,6 +3,3 @@ jQuery(function($) {
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
 });
-function formConfirmation() {
-  alert("Thank you for signing up! \n\nEnjoy!");
-}
