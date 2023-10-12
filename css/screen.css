@@ -238,6 +238,7 @@ h1 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin: 20px auto;
   max-width: 800px;
+  align-items: center
 }
 
 /* Recipe section styles */
