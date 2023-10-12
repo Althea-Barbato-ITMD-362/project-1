@@ -217,7 +217,6 @@ body, h1, h2, p, ul, li {
 /* Basic styles for the entire page */
 body {
   font-family: 'Brush Script MT', cursive;
-  background-color: #f7e7ce;
   margin: 0;
   padding: 0;
   background-image: url("C:\Users\Althea\Documents\GitHub\project-1\image\cutie.jpg");
@@ -235,7 +234,7 @@ h1 {
 /* Main content area styles */
 #content {
   padding: 20px;
-  background-color: #fff;
+  background-color: #f7e7ce;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin: 20px auto;
@@ -258,7 +257,7 @@ p {
 
 /* Form styles */
 form {
-  background-color: #fff;
+  background-color: #f7e7ce;
   font-family: 'Arial', sans-serif;
   padding: 20px;
   border-radius: 10px;
