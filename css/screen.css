@@ -218,7 +218,6 @@ body, h1, h2, p, ul, li {
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f7e7ce;
-  text-align: center;
   margin: 0;
   padding: 0;
   align-items: center
@@ -264,6 +263,7 @@ form {
   color: #333;
   width: 100%;
   margin-top: 20px;
+  text-align: left;
   align-items: center
 }
 
