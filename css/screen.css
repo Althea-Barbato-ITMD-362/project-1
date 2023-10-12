@@ -209,7 +209,7 @@ label {
 
   
 /* Reset some default styles for consistency */
-body, h1, h2, p, ul, li {
+body, h1, h2, h3, p, ul, li, label, input {
   margin: 0;
   padding: 0;
 }
@@ -224,41 +224,14 @@ body {
 }
 
 /* Header styles */
-header {
-  background-color: #ffb366;
-  padding: 20px;
-  border-bottom: 4px solid #ff8c33;
-}
-
 h1 {
   font-size: 2.5em;
-  color: #fff;
+  color: #ff8c33;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* Navigation menu styles */
-nav {
-  background-color: #ff8c33;
-  padding: 10px;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-}
-
 /* Main content area styles */
-.container {
+#content {
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
@@ -268,32 +241,65 @@ nav a {
 }
 
 /* Recipe section styles */
-.recipe {
-  background-color: #fff;
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 h2 {
   font-size: 1.5em;
   color: #ff8c33;
 }
 
-p {
+h3 {
   font-size: 1.2em;
   color: #333;
+  padding: 10px 0;
 }
 
-/* Newsletter sign-up box styles */
-.newsletter {
-  background-color: #ff8c33;
+/* Form styles */
+form {
+  background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  color: #fff;
+  color: #333;
+}
+
+fieldset {
+  border: none;
+}
+
+p {
   font-size: 1.2em;
+  color: #ff8c33;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+#sub_button {
+  margin: 20px 0;
+}
+
+input[type="submit"] {
+  background-color: #ff8c33;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 /* Responsive design - adjust as needed for mobile devices */
@@ -301,7 +307,10 @@ p {
   h1 {
     font-size: 2em;
   }
-  .recipe, .newsletter {
-    padding: 10px;
+  h2 {
+    font-size: 1.4em;
+  }
+  h3 {
+    font-size: 1.1em;
   }
 }
