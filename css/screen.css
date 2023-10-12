@@ -267,6 +267,7 @@ form {
   width: 50%;
   margin-top: 20px;
   margin: 20px auto;
+  font-size: 1em;
   text-align: left;
   align-items: center
 }
@@ -290,7 +291,7 @@ input[type="date"] {
   margin: 5px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 1.2em;
+  font-size: .5em;
 }
 
 #sub_button {
