@@ -59,7 +59,7 @@ p {
 
 form {
   background-color: #f7e7ce;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', monaco;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -125,13 +125,11 @@ input[type="submit"] {
   
 }
 @media screen and (min-width: 768px) {
-  /* Styles for screens with a minimum width of 768px */
   body {
     font-size: 16px;
   }
 }
   @media screen and (min-width: 1024px) {
-    /* Styles for tablets with a minimum width of 1024px */
     .sidebar {
       width: 30%;
       float: left;
