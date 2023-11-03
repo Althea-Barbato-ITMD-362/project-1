@@ -54,6 +54,7 @@ h2 {
 ul {
   font-size: 1.4em;
   color: #333;
+  list-style-type: none;
   padding: 10px 0;
 }
 
