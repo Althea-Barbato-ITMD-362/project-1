@@ -47,11 +47,11 @@ h2 {
   margin-left: 20px; 
 }
 
-.recipe-directions p {
+.recipe-directions ul {
   flex: 1; 
 }
 
-p {
+ul {
   font-size: 1.4em;
   color: #333;
   padding: 10px 0;
